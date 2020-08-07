@@ -1,0 +1,27 @@
+import random
+
+x = 'and now the time has come and so I draw the final curtain'
+print (x.split())
+print (x.split('i',3))
+print (x[1:-1:2])
+
+f = 'the {} {} {}'
+print (f.format("fox","brown","quick"))
+
+f = 'the {2} {1} {0}'
+print (f.format("fox","brown","quick"))
+
+f = 'the {0} {0} {0}'
+print (f.format("fox","brown","quick"))
+
+fox = 'the {q} {b} {f}'
+print (fox.format(f="fox",b="brown",q="quick"))
+
+r = 100/77
+
+print("The number is {r:10.2f} and I use R again and again".format(r=r))
+
+print(f"The text is '{x}' and the  number is {r:10.2f} and I use R again and again")
+
+t = f"The text is '{x}' and the  number is {r:10.2f} and I use R again and again"
+print (t.upper())
