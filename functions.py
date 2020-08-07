@@ -15,7 +15,6 @@ a=1
 b=2
 print("The  sum of", a , " and ", b , " is: ",myThirdFunc(a,b))
 
-
 # Built in functions
 
 bl = bool(1)
