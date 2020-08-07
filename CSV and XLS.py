@@ -10,7 +10,7 @@ with  open ( '/home/urik/Python38/Complete-Python-3-Bootcamp-master/15-PDFs-and-
         #      print (word)
         #print (csvl[0])
 
-
+#  another git test
 with  open ( '//home/urik/Documents/SOW008.005b ExecSum.pdf', mode ='rb') as pdff:
     pdfText = PyPDF2.PdfFileReader(pdff)
     pdfText.pages

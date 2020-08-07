@@ -18,6 +18,7 @@ print("The  sum of", a , " and ", b , " is: ",myThirdFunc(a,b))
 # Built in functions
 
 bl = bool(1)
+# test GIT
 st = "Uri"
 integ = 1000
 floaty = 1.1234
