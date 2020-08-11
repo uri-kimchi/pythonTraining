@@ -20,7 +20,7 @@ try:
 except (Exception, psycopg2.Error) as error :
     print ("Error while connecting to PostgreSQL", error)
 finally:
-    #closing database connection.
+    #closing database connection. jjjj
         if(connection):
             cursor.close()
             connection.close()
